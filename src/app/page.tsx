@@ -9,13 +9,13 @@ export default function Page() {
       justifyContent='center'
       direction='column'
     >
-      <Typography variant='h1' style={{ color: '#2563eb' }}>
+      <Typography variant='h1' style={{ color: '#2532eb' }}>
         Using Material UI with Next.js
       </Typography>
-      <Typography variant='h4' style={{ color: '#ef4444' }}>
+      <Typography variant='h4' style={{ color: '#ef4424' }}>
         (with TypeScript)
       </Typography>
-      <Stack direction='row' columnGap={1}>
+      <Stack mt={2} direction='row' columnGap={1}>
         <Button variant='contained'>Contained</Button>
         <Button variant='outlined'>Outlined</Button>
       </Stack>
